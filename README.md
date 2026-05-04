@@ -31,14 +31,14 @@ When a goal is active, the extension injects a hidden continuation prompt after 
 
 ## What it adds
 
-- `/goal [--tokens 50k] <objective>` — set or replace a goal
-- `/goal status` — show the current goal
-- `/goal pause` — stop autonomous continuation without deleting the goal
-- `/goal resume` — reactivate a paused goal
-- `/goal clear` — remove the goal
-- `get_goal` tool — read current goal state
-- `update_goal` tool — model can only mark the goal `complete`
-- footer status — `Pursuing goal`, `Goal paused`, `Goal achieved`, or `Goal unmet`
+- `/goal [--tokens 50k] <objective>`: set or replace a goal
+- `/goal status`: show the current goal
+- `/goal pause`: stop autonomous continuation without deleting the goal
+- `/goal resume`: reactivate a paused goal
+- `/goal clear`: remove the goal
+- `get_goal` tool: read current goal state
+- `update_goal` tool: model can only mark the goal `complete`
+- footer status: `Pursuing goal`, `Goal paused`, `Goal achieved`, or `Goal unmet`
 
 ## Flow
 
